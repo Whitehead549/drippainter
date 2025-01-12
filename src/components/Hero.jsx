@@ -20,7 +20,7 @@ const Hero = () => {
           {/* Get Quote Button */}
           <a
             href="https://freightswiftlogistics.com/about/"
-            className="bg-[#00df9a] border-2 border-[#000000] text-[#000000] py-1 px-4 sm:px-6 md:px-10 lg:px-12 lg:py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 shadow-xl"
+            className="bg-[#00df9a] border-2 border-[#000000] text-[#000000] py-1 px-4 sm:px-6 md:px-10 lg:px-12 lg:py-2 rounded-sm hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 shadow-xl"
           >
             Get Quote
           </a>
