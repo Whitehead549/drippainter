@@ -34,7 +34,7 @@ const Testimonial = () => {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="bg-custom_blue p-6 shadow-lg rounded-xl hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            className="bg-[fff] p-6 shadow-lg rounded-xl hover:shadow-xl transition-shadow duration-300 ease-in-out"
           >
             <div className="text-center">
               <h3 className="text-lg font-semibold text-[#000000]">

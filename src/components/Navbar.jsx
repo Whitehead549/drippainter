@@ -12,13 +12,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full text-[#000000] bg-[#e0e7e9] shadow-md z-[9999]">
+    <div className="fixed top-0 left-0 w-full text-[#fff] bg-[#000300] shadow-md z-[9999]">
       {/* Main Navbar */}
       <div className="container mx-auto px-4 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex-shrink-0">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <h1 className="text-2xl font-bold">Shipping Site</h1>
+            <h1 className="text-2xl font-bold text-[#00df9a]">Shipping Site</h1>
           </Link>
         </div>
 
@@ -97,13 +97,13 @@ const Navbar = () => {
           {showMenu ? (
             <FaRegWindowClose
               onClick={toggleMenu}
-              className="cursor-pointer text-[#000000] transition-transform transform hover:scale-110"
+              className="cursor-pointer text-[#fff] transition-transform transform hover:scale-110"
               size={30}
             />
           ) : (
             <HiMenuAlt3
               onClick={toggleMenu}
-              className="cursor-pointer text-[#000000] transition-transform transform hover:scale-110"
+              className="cursor-pointer text-[#fff] transition-transform transform hover:scale-110"
               size={30}
             />
           )}
@@ -112,7 +112,7 @@ const Navbar = () => {
 
       {/* Responsive Menu */}
       {showMenu && (
-        <div className="md:hidden bg-custom_blue-light absolute top-full left-0 w-full shadow-md transition-all duration-300">
+        <div className="md:hidden bg-[#000300] absolute top-full left-0 w-full shadow-md transition-all duration-300">
           <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} />
         </div>
       )}
