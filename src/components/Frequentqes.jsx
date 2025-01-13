@@ -50,19 +50,19 @@ const Frequentqes = () => {
 
   return (
     <div className="max-w-6xl mx-2 lg:mx-auto my-8 p-4 sm:p-8 bg-[#000300] text-[#fff] rounded-xl shadow-lg">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8">
+      <h2 className="text-xl sm:text-3xl md:text-4xl font-bold text-center mb-8">
         Frequently Asked Questions
       </h2>
       <div className="space-y-6">
         {faqs.map((faq, index) => (
           <div key={index} className="border-b border-gray-600 pb-4">
             <h3
-              className="text-lg sm:text-xl font-semibold cursor-pointer flex justify-between items-center gap-4"
+              className="text-sm sm:text-md font-semibold cursor-pointer flex justify-between items-center gap-4"
               onClick={() => toggleFAQ(index)}
             >
               <span className="flex-1">{faq.question}</span>
               <span
-                className={`text-[#fff] bg-[#00df9a] rounded-full w-8 h-8 flex items-center justify-center transform transition-transform duration-300 ${
+                className={`text-[#fff] bg-[#00df9a] rounded-full w-6 h-6 flex items-center justify-center transform transition-transform duration-300 ${
                   activeIndex === index ? "rotate-180" : ""
                 }`}
               >
