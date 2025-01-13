@@ -8,10 +8,7 @@ const Frequentqes = () => {
       question: "What is the primary goal of your training program?",
       answer: "Our training program aims to empower individuals by providing tailored training that bridges the gap between skill development and employment. We focus on equipping our trainees with the skills they need to thrive in their chosen careers."
     },
-    {
-      question: "How does your program ensure job placement for trainees?",
-      answer: "We offer guaranteed job placements as part of our program. Our approach involves personalized training and strong partnerships with employers to facilitate successful career transitions for our trainees."
-    },
+    
     {
       question: "What kind of training do you provide?",
       answer: "Our training is customized to meet the specific needs of each individual and the demands of the job market. We offer a range of programs designed to develop both technical and soft skills relevant to various career paths."
@@ -32,14 +29,7 @@ const Frequentqes = () => {
       question: "Are there any prerequisites for joining the program?",
       answer: "Prerequisites vary depending on the specific training program you choose. Generally, we look for a commitment to learning and a desire to advance your career. Specific requirements will be outlined during the application process."
     },
-    {
-      question: "What industries or job roles do you cover?",
-      answer: "Our training programs cover a wide range of industries and job roles. We tailor our offerings based on current market demands and the interests of our trainees. For detailed information on available programs, please refer to our website or contact us directly."
-    },
-    {
-      question: "Is there any cost associated with the training program?",
-      answer: "Program costs vary depending on the training you choose. We offer various payment options and financial assistance to ensure our programs are accessible. Detailed information about costs and financial support is available upon request."
-    }
+   
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
