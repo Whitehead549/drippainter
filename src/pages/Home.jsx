@@ -3,6 +3,7 @@ import Steps from '../components/Steps';
 import Testimonial from '../components/Essentials/Testimonial';
 import Hero from '../components/Hero'
 import ImageGrid from '../components/Essentials/ImageGrid';
+import Frequentqes from '../components/Frequentqes';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Hero />
         <ImageGrid />
         <Steps />
+        <Frequentqes />
         <Testimonial />
     </div>
   );

@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-16 sm:pt-8 md:pt-12 lg:pt-16 px-4 sm:px-6 md:px-8">
         {/* Heading */}
         <h1 className="text-2xl sm:text-2xl md:text-5xl lg:text-6xl font-bold text-[#fff] mb-3 sm:mb-2 md:mb-4 leading-snug sm:leading-tight md:leading-normal max-w-3xl tracking-wide">
-          NAZ TRUST <br/>LOGISTICS SERVICES
+          DAVINCI <br/>ART WORK
         </h1>
 
         {/* Description */}

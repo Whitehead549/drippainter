@@ -18,7 +18,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="flex-shrink-0">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <h1 className="text-2xl font-bold text-[#000000]">Shipping Site</h1>
+            <h1 className="text-2xl font-bold text-[#000000]">Davinci</h1>
           </Link>
         </div>
 
