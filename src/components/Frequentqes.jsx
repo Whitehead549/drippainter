@@ -55,7 +55,7 @@ const Frequentqes = () => {
       </h2>
       <div className="space-y-6">
         {faqs.map((faq, index) => (
-          <div key={index} className="border-b border-gray-700 pb-4">
+          <div key={index} className="border-b border-gray-600 pb-4">
             <h3
               className="text-lg sm:text-xl font-semibold cursor-pointer flex justify-between items-center gap-4"
               onClick={() => toggleFAQ(index)}
@@ -70,7 +70,7 @@ const Frequentqes = () => {
               </span>
             </h3>
             {activeIndex === index && (
-              <p className="mt-4 text-sm sm:text-base text-gray-400">
+              <p className="mt-4 text-sm sm:text-base text-gray-300">
                 {faq.answer}
               </p>
             )}
