@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sampleImage from "../assets/ship.jpg"; // Update with your image path
+import loadingLogo from "../assets/CASLogo.png"; // Import your loading logo
 
 const Home = ({ setIsHomeLoading }) => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -23,8 +24,12 @@ const Home = ({ setIsHomeLoading }) => {
           className="absolute inset-0 w-full h-full object-cover"
         />
       ) : (
-        <div className="flex items-center justify-center text-gray-400 ">
-          Loading...
+        <div className="flex items-center justify-center text-gray-400 animate-pulse">
+          <img
+            src={loadingLogo}
+            alt="Loading"
+            className="w-20 h-20" // Adjust size as needed
+          />
         </div>
       )}
     </div>
