@@ -22,7 +22,7 @@ const Home = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
       ) : (
-        <div className="flex items-center justify-center text-gray-500">
+        <div className="flex items-center justify-center text-gray-400">
           Loading...
         </div>
       )}
