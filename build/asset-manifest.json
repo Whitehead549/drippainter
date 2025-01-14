@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.183b7d0d.css",
-    "main.js": "/static/js/main.0690bf4b.js",
+    "main.css": "/static/css/main.a6be0b7c.css",
+    "main.js": "/static/js/main.5117b218.js",
     "static/media/ship.jpg": "/static/media/ship.363c6e4d14d04e939739.jpg",
-    "static/media/CASLogo.png": "/static/media/CASLogo.d4ba09ef1a47be0e5ee8.png",
     "index.html": "/index.html",
-    "main.183b7d0d.css.map": "/static/css/main.183b7d0d.css.map",
-    "main.0690bf4b.js.map": "/static/js/main.0690bf4b.js.map"
+    "main.a6be0b7c.css.map": "/static/css/main.a6be0b7c.css.map",
+    "main.5117b218.js.map": "/static/js/main.5117b218.js.map"
   },
   "entrypoints": [
-    "static/css/main.183b7d0d.css",
-    "static/js/main.0690bf4b.js"
+    "static/css/main.a6be0b7c.css",
+    "static/js/main.5117b218.js"
   ]
 }
