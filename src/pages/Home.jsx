@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaSpinner } from "react-icons/fa"; // Import Font Awesome spinner
 import sampleImage from "../assets/ship.jpg"; // Update with your image path
 
 const Home = ({ setIsHomeLoading }) => {
@@ -23,8 +24,8 @@ const Home = ({ setIsHomeLoading }) => {
           className="absolute inset-0 w-full h-full object-cover"
         />
       ) : (
-        <div className="flex items-center justify-center text-gray-400 ">
-          Loading...
+        <div className="flex items-center justify-center text-gray-400">
+          <FaSpinner className="animate-spin text-4xl" /> {/* Spinner animation */}
         </div>
       )}
     </div>
