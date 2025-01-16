@@ -7,20 +7,27 @@ import Frequentqes from "../components/Frequentqes";
 
 const Home = ({ setIsHomeLoading }) => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [isDelayComplete, setIsDelayComplete] = useState(false);
 
   useEffect(() => {
     const img = new Image();
     img.src = heroBanner;
+
     img.onload = () => {
       setIsLoaded(true);
       setIsHomeLoading(false); // Notify App that loading is complete
+
+      // Add 3-second delay even after the image has loaded
+      setTimeout(() => {
+        setIsDelayComplete(true);
+      }, 1500);
     };
   }, [setIsHomeLoading]);
 
   return (
     <div className="bg-gray-100 overflow-x-hidden">
       {/* Show placeholder or loader until image is fully loaded */}
-      {isLoaded ? (
+      {isLoaded && isDelayComplete ?  (
         <>
           {/* Hero Section */}
           <div
