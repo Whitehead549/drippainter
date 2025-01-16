@@ -40,7 +40,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu}) => {
     <div
       className={`${
         showMenu ? "left-0" : "-left-[100%]"
-      } fixed bottom-0 top-0 z-20 flex h-[65%] w-[75%] flex-col justify-between bg-[#FAFAFA] px-8 pb-0 pt-4 transition-all duration-200 md:hidden rounded-r-xl shadow-md`}
+      } fixed bottom-0 top-0 z-20 flex h-[65%] w-[65%] flex-col justify-between bg-[#FAFAFA] px-8 pb-0 pt-4 transition-all duration-200 md:hidden rounded-r-xl shadow-md`}
     >
       <div className="Navbar_card">
         {/* Top section */}
