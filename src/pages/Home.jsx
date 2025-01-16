@@ -15,19 +15,19 @@ const Home = ({ setIsHomeLoading }) => {
 
     img.onload = () => {
       setIsLoaded(true);
-    
+      setIsHomeLoading(false); // Notify App that loading is complete
+
       // Add 3-second delay even after the image has loaded
       setTimeout(() => {
         setIsDelayComplete(true);
-      }, 1500);
-      setIsHomeLoading(false); // Notify App that loading is complete
+      }, 3000);
     };
   }, [setIsHomeLoading]);
 
   return (
     <div className="bg-gray-100 overflow-x-hidden">
-      {/* Show placeholder or loader until image is fully loaded */}
-      {isLoaded && isDelayComplete ?  (
+      {/* Show placeholder or loader until image is fully loaded and delay is complete */}
+      {isLoaded && isDelayComplete ? (
         <>
           {/* Hero Section */}
           <div
@@ -46,7 +46,9 @@ const Home = ({ setIsHomeLoading }) => {
             {/* Content Wrapper */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-12 px-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight max-w-3xl tracking-wide">
-              Creative<br/>Art Work
+                Creative
+                <br />
+                Art Work
               </h1>
 
               <div className="flex flex-col sm:flex-row space-y-0 sm:space-y-0 sm:space-x-6 justify-center pt-0">
