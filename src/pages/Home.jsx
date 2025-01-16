@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaSpinner } from "react-icons/fa"; // Import Font Awesome spinner
+import { FaSpinner } from "react-icons/fa";
 import heroBanner from "../assets/2150170352.jpg";
 import image1 from "../assets/Digital_art.jpg";
 import image2 from "../assets/Education.jpg";
@@ -13,13 +13,29 @@ import Frequentqes from "../components/Frequentqes";
 const Home = ({ setIsHomeLoading }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
+  const imagesToLoad = [heroBanner, image1, image2, image3, image4];
+
   useEffect(() => {
-    const img = new Image();
-    img.src = heroBanner;
-    img.onload = () => {
-      setIsLoaded(true);
-      setIsHomeLoading(false); // Notify App that loading is complete
-    };
+    // Preload all images
+    const preloadImages = imagesToLoad.map((src) => {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.src = src;
+        img.onload = resolve;
+        img.onerror = reject;
+      });
+    });
+
+    Promise.all(preloadImages)
+      .then(() => {
+        setIsLoaded(true); // All images are loaded
+        setIsHomeLoading(false); // Notify parent that loading is complete
+      })
+      .catch((error) => {
+        console.error("Error loading images:", error);
+        setIsLoaded(true); // Fallback: Consider loading complete even if some images fail
+        setIsHomeLoading(false);
+      });
   }, [setIsHomeLoading]);
 
   // Image Grid Data
@@ -34,7 +50,7 @@ const Home = ({ setIsHomeLoading }) => {
 
   return (
     <div className="bg-gray-100 overflow-x-hidden">
-      {/* Show placeholder or loader until image is fully loaded */}
+      {/* Show placeholder or loader until all images are fully loaded */}
       {isLoaded ? (
         <>
           {/* Hero Section */}
