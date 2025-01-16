@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.c4bee786.css",
-    "main.js": "/static/js/main.3b272fb2.js",
-    "static/media/fine_art.jpg": "/static/media/fine_art.0cc1bd9925c444334601.jpg",
-    "static/media/room.jpg": "/static/media/room.2c5d055372697ada2ab8.jpg",
-    "static/media/Digital_art.jpg": "/static/media/Digital_art.6cdf64a5d50593f8fe76.jpg",
-    "static/media/logissss.jpg": "/static/media/logissss.726d8d1d2380d59987d2.jpg",
-    "static/media/Education.jpg": "/static/media/Education.7a86a13471d1df788a79.jpg",
-    "static/media/consultant.jpg": "/static/media/consultant.3137df3f6c7bbaa1c8ef.jpg",
+    "main.js": "/static/js/main.6efaea00.js",
     "static/media/2150170352.jpg": "/static/media/2150170352.f5e020a6a317352cf016.jpg",
+    "static/media/fine_art.jpg": "/static/media/fine_art.0310c9fc67cbc6d0d2d6.jpg",
+    "static/media/room.jpg": "/static/media/room.c8f7e69ca588aca2d00b.jpg",
+    "static/media/Digital_art.jpg": "/static/media/Digital_art.6ce6d4b27aa43b76df8e.jpg",
+    "static/media/logissss.jpg": "/static/media/logissss.891f649eb17079e71c24.jpg",
+    "static/media/Education.jpg": "/static/media/Education.f16583cb4567aeeef3bd.jpg",
+    "static/media/consultant.jpg": "/static/media/consultant.537ffdd1b4ed5193cf5d.jpg",
     "index.html": "/index.html",
     "main.c4bee786.css.map": "/static/css/main.c4bee786.css.map",
-    "main.3b272fb2.js.map": "/static/js/main.3b272fb2.js.map"
+    "main.6efaea00.js.map": "/static/js/main.6efaea00.js.map"
   },
   "entrypoints": [
     "static/css/main.c4bee786.css",
-    "static/js/main.3b272fb2.js"
+    "static/js/main.6efaea00.js"
   ]
 }
