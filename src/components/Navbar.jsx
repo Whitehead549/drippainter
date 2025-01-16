@@ -12,13 +12,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full text-[#000000] bg-[#FAFAFA] shadow-md z-[9999]">
+    <div className="fixed top-0 left-0 w-full text-[#ffffff] bg-[#000300] shadow-md z-[9999]">
       {/* Main Navbar */}
       <div className="container mx-auto px-4 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex-shrink-0">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <h1 className="text-2xl font-bold text-[#000000]">Davinci</h1>
+            <h1 className="text-2xl font-bold text-[#ffffff]">Davinci</h1>
           </Link>
         </div>
 
@@ -28,8 +28,8 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-[#000000] font-semibold"
-                : "hover:text-gray-600  transition-colors duration-300"
+                ? "text-[#ffffff] font-semibold"
+                : "hover:text-gray-400  transition-colors duration-300"
             }
             onClick={() => window.scrollTo(0, 0)}
           >
@@ -39,8 +39,8 @@ const Navbar = () => {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? "text-[#000000] font-semibold"
-                : "hover:text-gray-600 transition-colors duration-300"
+                ? "text-[#ffffff] font-semibold"
+                : "hover:text-gray-400 transition-colors duration-300"
             }
             onClick={() => window.scrollTo(0, 0)}
           >
@@ -50,8 +50,8 @@ const Navbar = () => {
             to="/services"
             className={({ isActive }) =>
               isActive
-                ? "text-[#000000] font-semibold"
-                : "hover:text-gray-600 transition-colors duration-300"
+                ? "text-[#ffffff] font-semibold"
+                : "hover:text-gray-400 transition-colors duration-300"
             }
             onClick={() => window.scrollTo(0, 0)}
           >
@@ -61,8 +61,8 @@ const Navbar = () => {
             to="/payment"
             className={({ isActive }) =>
               isActive
-                ? "text-[#000000] font-semibold"
-                : "hover:text-gray-600 transition-colors duration-300"
+                ? "text-[#ffffff] font-semibold"
+                : "hover:text-gray-400 transition-colors duration-300"
             }
             onClick={() => window.scrollTo(0, 0)}
           >
@@ -72,8 +72,8 @@ const Navbar = () => {
             to="/track"
             className={({ isActive }) =>
               isActive
-                ? "text-[#000000] font-semibold"
-                : "hover:text-gray-600 transition-colors duration-300"
+                ? "text-[#ffffff] font-semibold"
+                : "hover:text-gray-400 transition-colors duration-300"
             }
             onClick={() => window.scrollTo(0, 0)}
           >
@@ -83,8 +83,8 @@ const Navbar = () => {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "text-[#000000] font-semibold"
-                : "hover:text-gray-600 transition-colors duration-300"
+                ? "text-[#ffffff] font-semibold"
+                : "hover:text-gray-400 transition-colors duration-300"
             }
             onClick={() => window.scrollTo(0, 0)}
           >
@@ -97,13 +97,13 @@ const Navbar = () => {
           {showMenu ? (
             <FaRegWindowClose
               onClick={toggleMenu}
-              className="cursor-pointer text-[#000000] transition-transform transform hover:scale-110"
+              className="cursor-pointer text-[#ffffff] transition-transform transform hover:scale-110"
               size={30}
             />
           ) : (
             <HiMenuAlt3
               onClick={toggleMenu}
-              className="cursor-pointer text-[#000000] transition-transform transform hover:scale-110"
+              className="cursor-pointer text-[#ffffff] transition-transform transform hover:scale-110"
               size={30}
             />
           )}

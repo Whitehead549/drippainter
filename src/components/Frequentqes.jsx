@@ -52,7 +52,7 @@ const Frequentqes = () => {
             >
               <span className="flex-1">{faq.question}</span>
               <span
-                className={`text-[#fff] bg-[#00df9a] rounded-full w-6 h-6 flex items-center justify-center transform transition-transform duration-300 ${
+                className={`text-[#000] bg-[#ffffff] rounded-full w-6 h-6 flex items-center justify-center transform transition-transform duration-300 ${
                   activeIndex === index ? "rotate-180" : ""
                 }`}
               >

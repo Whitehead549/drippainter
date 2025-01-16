@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 grid grid-cols-1 gap-6 sm:grid-cols-3  md:grid-cols-3  lg:grid-cols-3 ">
         {/* Column 1: Company Information */}
         <div className="text-center sm:text-left">
-          <h2 className="text-sm md:text-base font-bold mb-3 text-[#00df9a]">
+          <h2 className="text-sm md:text-base font-bold mb-3 text-[#fff]">
             Your Company Name
           </h2>
           <p className="text-xs md:text-sm leading-relaxed">
@@ -51,6 +51,7 @@ const Footer = () => {
           <p className="text-xs md:text-sm pb-6">
             <strong>Address:</strong> 123 Main Street, City, State, 12345
           </p>
+          {/* {social media} */}
           <div className="flex justify-center sm:justify-start space-x-4 mb-0">
             <a href="#" className="hover:text-gray-600 transition" aria-label="Facebook">
               <i className="fab fa-facebook-f"></i>
@@ -69,7 +70,7 @@ const Footer = () => {
       </div>
 
       {/* Divider and Copyright */}
-      <div className="border-t border-gray-700 mt-1 pt-4 text-center">
+      <div className="border-t border-gray-700 my-1 py-4 text-center">
         <p className="text-xs md:text-sm">
           &copy; {currentYear} Your Company Name. All Rights Reserved.
         </p>
