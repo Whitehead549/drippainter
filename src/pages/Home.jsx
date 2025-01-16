@@ -15,12 +15,12 @@ const Home = ({ setIsHomeLoading }) => {
 
     img.onload = () => {
       setIsLoaded(true);
-      setIsHomeLoading(false); // Notify App that loading is complete
-
+    
       // Add 3-second delay even after the image has loaded
       setTimeout(() => {
         setIsDelayComplete(true);
       }, 1500);
+      setIsHomeLoading(false); // Notify App that loading is complete
     };
   }, [setIsHomeLoading]);
 
