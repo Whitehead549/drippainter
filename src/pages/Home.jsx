@@ -25,27 +25,27 @@ const Home = ({ setIsHomeLoading }) => {
           {/* Hero Section */}
           <div
             id="hero-section"
-            className="relative w-full h-[80vh] sm:h-[80vh] md:h-[70vh] lg:h-[80vh] overflow-hidden  bg-[#000300]"
+            className="relative w-full h-[50vh] sm:h-[80vh] md:h-[70vh] lg:h-[80vh] overflow-hidden  bg-[#000300]"
           >
             <div className="absolute inset-0">
               <div className="absolute inset-0 bg-black bg-opacity-55"></div>
               <img
                 src={heroBanner}
                 alt="Hero Banner"
-                className="w-full h-full object-cover opacity-100 transition-opacity duration-200 md:pt-8 lg:pt-16"
+                className="w-full h-full object-cover opacity-100 transition-opacity duration-200 pt-8 md:pt-4 lg:pt-16"
               />
             </div>
 
             {/* Content Wrapper */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-12 px-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight max-w-3xl tracking-wide">
               Creative<br/>Art Work
               </h1>
 
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center pt-2">
+              <div className="flex flex-col sm:flex-row space-y-0 sm:space-y-0 sm:space-x-6 justify-center pt-0">
                 <a
                   href="https://freightswiftlogistics.com/about/"
-                  className="bg-white border-2 border-white rounded-full text-[#000000] py-2 px-4 sm:px-6 hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 shadow-2xl text-sm sm:text-base"
+                  className="bg-white border-2 border-white rounded-sm text-[#000000] py-2 px-4 sm:px-6 hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 shadow-md text-sm sm:text-base"
                 >
                   Get Quote
                 </a>
