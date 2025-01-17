@@ -1,19 +1,11 @@
 import React from "react";
-import About from "../assets/AboutIImage (1).svg"
+
 
 const AboutSection = () => {
   return (
     <section className="relative">
      
-      <div className="flex justify-center py-8">
-          <img
-            src={About}
-            alt="About Us"
-            className="w-48 h-16"
-            loading="lazy"
-          />
-        </div>
-
+      
       {/* Content Section */}
       <div className="relative px-6 md:px-12 lg:px-20 pb-10">
         {/* Decorative Image Positioned Behind */}

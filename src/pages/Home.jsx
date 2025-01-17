@@ -10,11 +10,12 @@ import image6 from "../assets/logissss.jpg";
 import Testimonial from "../components/Essentials/Testimonial";
 import Frequentqes from "../components/Frequentqes";
 import AboutSection from "../components/AboutSection";
+import About from "../assets/AboutIImage (1).svg"
 
 const Home = ({ setIsHomeLoading }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
-  const imagesToLoad = [heroBanner, image1, image2, image3, image4];
+  const imagesToLoad = [About, heroBanner, image1, image2, image3, image4];
 
   useEffect(() => {
     // Preload all images
@@ -87,6 +88,15 @@ const Home = ({ setIsHomeLoading }) => {
 
           {/* Other Sections */}
           <div id="other-sections">
+          <div className="flex justify-center py-8">
+          <img
+            src={About}
+            alt="About Us"
+            className="w-48 h-16"
+            
+          />
+        </div>
+
           <AboutSection />
             {/* Image Grid Section */}
             <section className="text-[#ffffff] text-center py-4 md:py-6 lg:py-6 bg-[#000300]">
