@@ -9,6 +9,7 @@ import image5 from "../assets/room.jpg";
 import image6 from "../assets/logissss.jpg";
 import Testimonial from "../components/Essentials/Testimonial";
 import Frequentqes from "../components/Frequentqes";
+import AboutSection from "../components/AboutSection";
 
 const Home = ({ setIsHomeLoading }) => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -86,6 +87,7 @@ const Home = ({ setIsHomeLoading }) => {
 
           {/* Other Sections */}
           <div id="other-sections">
+          <AboutSection />
             {/* Image Grid Section */}
             <section className="text-[#ffffff] text-center py-4 md:py-6 lg:py-6 bg-[#000300]">
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
