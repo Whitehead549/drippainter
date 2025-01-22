@@ -2,13 +2,13 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
-import Services from './pages/Services';
 import MakePayment from './pages/MakePayment';
 import Track from './pages/Track';
 import ContactUs from './pages/ContactUs';
 import Footer from './components/Footer';
 import Admin from './Admin/Admin';
 import Navbar from './components/Navbar';
+import Painting from './pages/Painting';
 
 function App() {
   const [isHomeLoading, setIsHomeLoading] = useState(true);
@@ -27,7 +27,7 @@ function App() {
                 element={<Home setIsHomeLoading={setIsHomeLoading} />} 
               />
               <Route path="/about" element={<About />} />
-              <Route path="/services" element={<Services />} />
+              <Route path="/painting" element={<Painting />} />
               <Route path="/payment" element={<MakePayment />} />
               <Route path="/track" element={<Track />} />
               <Route path="/contact" element={<ContactUs />} />

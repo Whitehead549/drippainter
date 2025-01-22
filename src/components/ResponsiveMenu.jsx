@@ -13,8 +13,8 @@ const navbarLinks = [
     id: 2,
   },
   {
-    name: "Services",
-    link: "/services",
+    name: "Painting",
+    link: "/painting",
     id: 3,
   },
   {
