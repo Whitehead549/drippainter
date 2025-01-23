@@ -62,7 +62,7 @@ const Painting = () => {
 
   return (
     <div className="bg-gray-100 overflow-x-hidden">
-      <div className="mx-10 lg:mx-[18rem] pt-8 lg:pt-16">
+      <div className="mx-10 lg:mx-[18rem] pt-12 lg:pt-16">
         <section className="py-10 px-6 max-w-6xl mx-auto">
           {/* Page Header */}
           <div className="mb-8">
