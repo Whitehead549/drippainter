@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { FaSpinner } from "react-icons/fa";
+import useImageLoader from "../hooks/useImageLoader";
 import heroBanner from "../assets/2150170352.jpg";
 import image1 from "../assets/Digital_art.jpg";
 import image2 from "../assets/Education.jpg";
@@ -10,35 +11,16 @@ import image6 from "../assets/logissss.jpg";
 import Testimonial from "../components/Essentials/Testimonial";
 import Frequentqes from "../components/Frequentqes";
 import AboutSection from "../components/AboutSection";
-import About from "../assets/AboutIImage (1).svg"
+import About from "../assets/AboutIImage (1).svg";
 
 const Home = ({ setIsHomeLoading }) => {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const imagesToLoad = [About, heroBanner, image1, image2, image3, image4, image5, image6];
+  const isLoaded = useImageLoader(imagesToLoad);
 
-  const imagesToLoad = [About, heroBanner, image1, image2, image3, image4];
-
-  useEffect(() => {
-    // Preload all images
-    const preloadImages = imagesToLoad.map((src) => {
-      return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.src = src;
-        img.onload = resolve;
-        img.onerror = reject;
-      });
-    });
-
-    Promise.all(preloadImages)
-      .then(() => {
-        setIsLoaded(true); // All images are loaded
-        setIsHomeLoading(false); // Notify parent that loading is complete
-      })
-      .catch((error) => {
-        console.error("Error loading images:", error);
-        setIsLoaded(true); // Fallback: Consider loading complete even if some images fail
-        setIsHomeLoading(false);
-      });
-  }, [setIsHomeLoading]);
+  // Notify parent component when loading is complete
+  React.useEffect(() => {
+    setIsHomeLoading(!isLoaded);
+  }, [isLoaded, setIsHomeLoading]);
 
   // Image Grid Data
   const images = [
@@ -72,7 +54,9 @@ const Home = ({ setIsHomeLoading }) => {
             {/* Content Wrapper */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-12 px-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight max-w-3xl tracking-wide">
-                Creative<br />Art Work
+                Creative
+                <br />
+                Art Work
               </h1>
 
               <div className="flex flex-col sm:flex-row space-y-0 sm:space-y-0 sm:space-x-6 justify-center pt-0">
@@ -88,16 +72,12 @@ const Home = ({ setIsHomeLoading }) => {
 
           {/* Other Sections */}
           <div id="other-sections">
-          <div className="flex justify-center py-8">
-          <img
-            src={About}
-            alt="About Us"
-            className="w-48 h-16"
-            
-          />
-        </div>
+            <div className="flex justify-center py-8">
+              <img src={About} alt="About Us" className="w-48 h-16" />
+            </div>
 
-          <AboutSection />
+            <AboutSection />
+
             {/* Image Grid Section */}
             <section className="text-[#ffffff] text-center py-4 md:py-6 lg:py-6 bg-[#000300]">
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
