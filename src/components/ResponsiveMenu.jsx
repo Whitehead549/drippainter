@@ -18,8 +18,8 @@ const navbarLinks = [
     id: 3,
   },
   {
-    name: "Make Payment",
-    link: "/payment",
+    name: "Photographs",
+    link: "/photographs",
     id: 4,
   },
   {
