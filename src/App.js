@@ -1,5 +1,5 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import MakePayment from "./pages/MakePayment";
@@ -12,12 +12,20 @@ import Painting from "./pages/Painting";
 
 function App() {
   const [isHomeLoading, setIsHomeLoading] = useState(true);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Ensure Navbar always displays after initial load or route change
+    if (location.pathname !== "/") {
+      setIsHomeLoading(false);
+    }
+  }, [location]);
 
   return (
     <div className="overflow-x-hidden">
       <Router>
         <div className="min-h-screen flex flex-col">
-          {/* Conditionally render Navbar */}
+          {/* Always render the Navbar if loading is complete or not on Home */}
           {!isHomeLoading && <Navbar />}
           <main className="flex-grow">
             <Routes>
