@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full text-[#ffffff] bg-[#000300] shadow-md z-[999]">
+    <div className="fixed top-0 left-0 w-full text-[#ffffff] bg-[#000300] shadow-md z-[9999]">
       {/* Main Navbar */}
       <div className="container mx-auto px-4 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo Section */}
