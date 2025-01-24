@@ -13,7 +13,7 @@ const navbarLinks = [
     id: 2,
   },
   {
-    name: "Painting",
+    name: "Paintings",
     link: "/painting",
     id: 3,
   },
@@ -23,14 +23,9 @@ const navbarLinks = [
     id: 4,
   },
   {
-    name: "Track",
-    link: "/track",
-    id: 5,
-  },
-  {
     name: "Contact Us",
     link: "/contact",
-    id: 6,
+    id: 5,
   },
 ];
 

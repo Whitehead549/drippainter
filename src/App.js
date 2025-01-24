@@ -1,7 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Track from './pages/Track';
 import ContactUs from './pages/ContactUs';
 import Footer from './components/Footer';
 import Admin from './Admin/Admin';
@@ -28,7 +27,6 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/painting" element={<Painting />} />
               <Route path="/photographs" element={<Photographs />} />
-              <Route path="/track" element={<Track />} />
               <Route path="/contact" element={<ContactUs />} />
 
               {/* Admin Route */}

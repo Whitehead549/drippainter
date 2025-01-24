@@ -55,7 +55,7 @@ const Navbar = () => {
             }
             onClick={() => window.scrollTo(0, 0)}
           >
-            Painting
+            Paintings
           </NavLink>
           <NavLink
             to="/photographs"
@@ -67,17 +67,6 @@ const Navbar = () => {
             onClick={() => window.scrollTo(0, 0)}
           >
             Photographs
-          </NavLink>
-          <NavLink
-            to="/track"
-            className={({ isActive }) =>
-              isActive
-                ? "text-[#ffffff] font-semibold"
-                : "hover:text-gray-400 transition-colors duration-300"
-            }
-            onClick={() => window.scrollTo(0, 0)}
-          >
-            Track
           </NavLink>
           <NavLink
             to="/contact"
