@@ -1,4 +1,6 @@
 import React from "react";
+import { Link} from "react-router-dom";
+
 
 
 const AboutSection = () => {
@@ -39,12 +41,12 @@ const AboutSection = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-12 relative z-10">
-          <a
-            href="/mission"
+          <Link
+            to="/about"
             className="px-8 py-3 bg-[#000300] text-white font-semibold text-lg rounded-full shadow-md hover:bg-gray-800 hover:shadow-lg transition-transform transform hover:scale-105"
           >
             Learn More
-          </a>
+          </Link>
         </div>
       </div>
       
