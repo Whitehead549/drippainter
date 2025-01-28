@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec79cc69.css",
-    "main.js": "/static/js/main.3d53dd31.js",
+    "main.css": "/static/css/main.fcf64d9a.css",
+    "main.js": "/static/js/main.e7f2272e.js",
     "static/media/grey.jpg": "/static/media/grey.11105b3f0494edcb2cda.jpg",
     "static/media/progress.jpg": "/static/media/progress.56a09164f90d1caaa18b.jpg",
     "static/media/Soul Awakening.jpg": "/static/media/Soul Awakening.f8be510b330dbe37cc57.jpg",
@@ -25,11 +25,11 @@
     "static/media/consultant.jpg": "/static/media/consultant.537ffdd1b4ed5193cf5d.jpg",
     "static/media/AboutIImage (1).svg": "/static/media/AboutIImage (1).b43515bb9ee8d1c46df4ecdf5910203f.svg",
     "index.html": "/index.html",
-    "main.ec79cc69.css.map": "/static/css/main.ec79cc69.css.map",
-    "main.3d53dd31.js.map": "/static/js/main.3d53dd31.js.map"
+    "main.fcf64d9a.css.map": "/static/css/main.fcf64d9a.css.map",
+    "main.e7f2272e.js.map": "/static/js/main.e7f2272e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec79cc69.css",
-    "static/js/main.3d53dd31.js"
+    "static/css/main.fcf64d9a.css",
+    "static/js/main.e7f2272e.js"
   ]
 }
