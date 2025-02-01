@@ -98,7 +98,7 @@ const Home = () => {
             <AboutSection />
             <section className="text-[#ffffff] text-center py-4 md:py-6 lg:py-6 bg-[#000300]">
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
-                Our Creative Collection
+              OUR SERVICES
               </h1>
             </section>
 

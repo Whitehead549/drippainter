@@ -7,22 +7,22 @@ import "swiper/css/autoplay";
 
 const testimonials = [
   {
-    name: "Scott Hannah",
-    title: "Warehouse Manager, Bailiwick",
+    name: "Emily Chen",
+    title: "Interior Designer",
     rating: 5,
-    text: "Spring Co Logistics has been a trusted, reliable partner for Bailiwick since the first shipment they picked up. They give me peace of mind knowing that my US shipments will get to their destinations safely.",
+    text: "I've had the pleasure of working with Nazee Creative Studios on several projects, and I'm always impressed by their professionalism and creativity. Their team is passionate, talented, and dedicated to delivering exceptional results.",
   },
   {
-    name: "Avic Gonzalez",
-    title: "Transportation Manager, Beckman Coulter",
+    name: "David Lee",
+    title: "Art Collector",
     rating: 5,
-    text: "I was really impressed with Spring Co Logistics' consultative approach to our distribution needs. They simply have the best execution and customer service of all my supply chain providers.",
+    text: "Nazee Creative Studios brought my vision to life with their stunning artwork. Their attention to detail, innovative approach, and excellent communication made the entire process seamless and enjoyable. I highly recommend them to anyone seeking unique and captivating art solutions.",
   },
   {
-    name: "Lisa Veach",
-    title: "Parts Manager, Power Curbers",
+    name: "Rachel Patel",
+    title: "Architect",
     rating: 5,
-    text: "As always, Spring Co Logistics once again came through for us when the shipment had to be there. I know I can always count on you and I can go home and let you handle it. That is priceless.",
+    text: "As an architect, I've collaborated with Nazee Creative Studios on various projects, and their expertise in art consulting and logistics has been invaluable. Their team is knowledgeable, responsive, and committed to finding the perfect art solutions for our clients. I look forward to continuing our partnership.",
   },
 ];
 

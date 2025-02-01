@@ -5,29 +5,29 @@ const Frequentqes = () => {
   const faqs = [
     // FAQ content remains unchanged
     {
-      question: "What is the primary goal of your training program?",
-      answer: "Our training program aims to empower individuals by providing tailored training that bridges the gap between skill development and employment. We focus on equipping our trainees with the skills they need to thrive in their chosen careers."
+      question: "Can I commission a custom art piece?",
+      answer: "Yes, we accept commissioned art projects. Please contact us to discuss your ideas and requirements."
     },
     
     {
-      question: "What kind of training do you provide?",
-      answer: "Our training is customized to meet the specific needs of each individual and the demands of the job market. We offer a range of programs designed to develop both technical and soft skills relevant to various career paths."
+      question: "Do you offer art classes or workshops?",
+      answer: "Yes, we offer various art education programs, including classes, workshops, and training sessions."
     },
     {
-      question: "Who can benefit from your training program?",
-      answer: "Our program is designed for individuals looking to enhance their skills and secure employment in their chosen field. Whether you’re a recent graduate, a career changer, or someone seeking professional development, our training is tailored to meet your needs."
+      question: "What types of art do you store?",
+      answer: "We store various types of art, including paintings, sculptures, prints, and other valuable items."
     },
     {
-      question: "How do I join the training program?",
-      answer: "To join, you can apply through our website or contact our admissions team directly. We will guide you through the application process and help you select the training program that best fits your career goals."
+      question: "What types of art do you create?",
+      answer: "We create original paintings, prints, sculptures, digital paintings, illustrations, and designs."
     },
     {
-      question: "What support is available during the training?",
-      answer: "We provide ongoing support throughout the training program, including mentorship, career counseling, and access to resources that help you succeed. Our goal is to ensure you are fully prepared for your future career."
+      question: "Do you offer art transportation services?",
+      answer: "Yes, we provide professional art handling, transportation, and installation services."
     },
     {
-      question: "Are there any prerequisites for joining the program?",
-      answer: "Prerequisites vary depending on the specific training program you choose. Generally, we look for a commitment to learning and a desire to advance your career. Specific requirements will be outlined during the application process."
+      question: "What are your payment terms?",
+      answer: "We accept various payment methods, including credit cards, bank transfers, bitcoins and checks."
     },
    
   ];

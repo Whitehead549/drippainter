@@ -17,42 +17,42 @@ const Painting = () => {
     {
       src: image4,
       title: "Emily Wilson",
-      bio: "Fine art encompasses the visual arts, including painting, sculpture, and drawing. It focuses on creativity, aesthetics, and mastery of materials to express unique ideas and emotions.",
+      bio: "Emily Wilson is a muralist known for her vibrant, large-scale works that celebrate cultural diversity and community spirit.",
     },
     {
       src: image1,
       title: "Abigail Russell",
-      bio: "Digital art leverages technology to create stunning visuals, combining traditional techniques with modern tools. It is used for animation, graphic design, and multimedia projects.",
+      bio: "Abigail Russell is a muralist who uses her art to advocate for social change and empower marginalized communities.",
     },
     {
       src: image2,
       title: "Lucas Jensen",
-      bio: "Art education promotes creativity and self-expression. It encourages learning through drawing, painting, and exploring the history and techniques of visual arts.",
+      bio: "Lucas Jensen is a muralist who specializes in creating murals that tell the stories of local communities and their histories.",
     },
     {
       src: image5,
       title: "Evelyn White",
-      bio: "Art storage involves the safe preservation of artworks, using specialized environments to protect them from damage caused by light, humidity, or temperature changes.",
+      bio: "Evelyn White is a muralist who uses vibrant colors and playful imagery to create murals that bring joy and wonder to communities.",
     },
     {
       src: image3,
       title: "John Brooks",
-      bio: "Art consulting provides guidance for selecting and curating art collections. It involves expertise in market trends and client preferences to create inspiring spaces.",
+      bio: "John Brooks is a muralist known for his minimalist and geometric designs that bring a sense of order and harmony to urban spaces.",
     },
     {
       src: image6,
       title: "Oliver Ross",
-      bio: "Art logistics handles the transportation and handling of artworks. It ensures safe delivery and installation, often requiring customized packaging and expertise.",
+      bio: "Oliver Ross is a muralist known for his bold, abstract murals that challenge traditional perspectives and provoke thought.",
     },
     {
       src: image7,
       title: "Cathy Fuksa",
-      bio: "Sculpture involves creating three-dimensional artworks by shaping materials like stone, metal, or clay. It is an ancient art form that continues to evolve.",
+      bio: "Cathy Fuksa is a muralist whose work focuses on creating immersive and interactive experiences for viewers.",
     },
     {
       src: image8,
       title: "Liam Fuksa",
-      bio: "Crafts emphasize handmade artistry, combining skill and creativity to produce unique items such as pottery, textiles, and jewelry.",
+      bio: "Liam Fuksa is a skilled muralist who specializes in photorealistic portraits and intricate details.",
     },
   ];
 
@@ -67,7 +67,7 @@ const Painting = () => {
           {/* Page Header */}
           <div className="mb-8">
             <h1 className="text-black text-lg md:text-xl lg:text-2xl uppercase tracking-wide font-light">
-              Artist Paintings
+            PAINTINGS BY OUR ARTISTS
             </h1>
             <div className="h-0.5 w-full bg-black mt-2"></div>
           </div>

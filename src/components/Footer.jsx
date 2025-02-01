@@ -13,8 +13,7 @@ const Footer = () => {
           Nazee Studios
           </h2>
           <p className="text-xs md:text-sm leading-relaxed">
-            Delivering quality services and exceptional value since [Year].
-            Contact us for innovative solutions tailored to your needs.
+          Inspiring creativity, beauty, and imagination through art. Elevating spaces, enhancing lives.
           </p>
         </div>
 
@@ -47,10 +46,10 @@ const Footer = () => {
         <div className="text-center sm:text-left text-[#fff]">
           <h2 className="text-sm md:text-base font-bold mb-2 text-[#ffffff]">Contact Us</h2>
           <p className="text-xs md:text-sm pb-1 text-[#ffffff]">
-            <strong>Email:</strong> contact@yourcompany.com
+            <strong>Email:</strong> contact@nazeecreativestudios.com
           </p>
           <p className="text-xs md:text-sm pb-6">
-            <strong>Address:</strong> 123 Main Street, City, State, 12345
+            <strong>Address:</strong> 1192 Maud Street Wilmington, DE 19801
           </p>
           {/* {social media} */}
           <div className="flex justify-center sm:justify-start space-x-4 mb-0">
@@ -73,7 +72,7 @@ const Footer = () => {
       {/* Divider and Copyright */}
       <div className="border-t border-gray-700 my-1 py-4 text-center">
         <p className="text-xs md:text-sm">
-          &copy; {currentYear} Your Company Name. All Rights Reserved.
+          &copy; {currentYear} Nazee Studios. All Rights Reserved.
         </p>
       </div>
     </footer>
