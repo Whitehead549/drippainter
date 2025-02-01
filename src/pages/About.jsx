@@ -112,7 +112,7 @@ const About = () => {
         </h2>
         <div className="lg:text-center md:text-center">
           <h3 className="text-xl md:text-xl font-medium mb-3 text-center">
-            At Nazee Creative Studios, we offer a wide range of services designed<br/> to meet the diverse needs of artists, collectors, and institutions. These include:
+            At Nazee Creative Studios, we offer a wide range of services designed to meet the diverse needs of artists, collectors, and institutions. These include:
           </h3>
           <ul className="list-disc list-outside pl-5 text-[#000000] text-base md:text-lg leading-relaxed max-w-3xl mx-auto lg:break-words lg:w-[50rem]">
             <li className="mb-2">

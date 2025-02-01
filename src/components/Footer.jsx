@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Column 1: Company Information */}
         <div className="text-center sm:text-left">
           <h2 className="text-sm md:text-base font-bold mb-3 text-[#fff]">
-            Your Company Name
+          Nazee Studios
           </h2>
           <p className="text-xs md:text-sm leading-relaxed">
             Delivering quality services and exceptional value since [Year].
