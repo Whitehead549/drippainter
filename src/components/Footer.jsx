@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,24 +21,24 @@ const Footer = () => {
         {/* Column 2: Quick Links */}
         <div className="text-center sm:text-centre lg:pr-2 ">
           <h3 className="text-sm md:text-base font-semibold mb-2 ">
-            Quick Links
+            Legal
           </h3>
           <ul className="space-y-0">
             <li>
-              <a
-                href="/privacy-policy"
+              <Link
+                to="/privacypolicy"
                 className="text-xs md:text-sm hover:text-gray-600 transition"
               >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/terms-of-service"
+              <Link
+                to="/termsofservice"
                 className="text-xs md:text-sm hover:text-gray-600 transition"
               >
                 Terms of Service
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

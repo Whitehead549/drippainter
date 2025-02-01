@@ -12,6 +12,7 @@ import Frequentqes from "../components/Frequentqes";
 import AboutSection from "../components/AboutSection";
 import Spinner from "../components/Spinner";
 import About from "../assets/AboutIImage (1).svg";
+import { Link} from "react-router-dom";
 
 const Home = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -50,7 +51,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="bg-gray-100 overflow-x-hidden">
+    <div className="bg-gray-50 overflow-x-hidden">
       {!isLoaded && <Spinner />}
       {isLoaded && (
         <>
@@ -70,17 +71,17 @@ const Home = () => {
 
             {/* Content Wrapper */}
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-12 px-4">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight max-w-3xl tracking-wide">
-                Creative<br />Art Work
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight max-w-3xl tracking-wide">
+              NAZEE CREATIVE <br />STUDIOS
               </h1>
 
               <div className="flex flex-col sm:flex-row space-y-0 sm:space-y-0 sm:space-x-6 justify-center pt-0">
-                <a
-                  href="https://freightswiftlogistics.com/about/"
+                 <Link
+                  to="/contact"
                   className="bg-white border-2 border-white rounded-sm text-[#000000] py-2 px-4 sm:px-6 hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 shadow-md text-sm sm:text-base"
                 >
-                  Get Quote
-                </a>
+                  Contact
+                </Link>
               </div>
             </div>
           </div>

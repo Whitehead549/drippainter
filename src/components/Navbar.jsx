@@ -57,17 +57,7 @@ const Navbar = () => {
           >
             Paintings
           </NavLink>
-          <NavLink
-            to="/photographs"
-            className={({ isActive }) =>
-              isActive
-                ? "text-[#ffffff] font-semibold"
-                : "hover:text-gray-400 transition-colors duration-300"
-            }
-            onClick={() => window.scrollTo(0, 0)}
-          >
-            Photographs
-          </NavLink>
+         
           <NavLink
             to="/contact"
             className={({ isActive }) =>
@@ -77,7 +67,7 @@ const Navbar = () => {
             }
             onClick={() => window.scrollTo(0, 0)}
           >
-            Contact Us
+            Contact
           </NavLink>
         </div>
 

@@ -61,7 +61,7 @@ const Painting = () => {
   };
 
   return (
-    <div className="bg-gray-100 overflow-x-hidden">
+    <div className="bg-gray-50 overflow-x-hidden">
       <div className="mx-10 lg:mx-[18rem] pt-12 lg:pt-16">
         <section className="py-10 px-6 max-w-6xl mx-auto">
           {/* Page Header */}
@@ -75,7 +75,7 @@ const Painting = () => {
           {/* Image Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {images.map((image, index) => (
-              <div key={index} className="text-left p-4 bg-gray-100">
+              <div key={index} className="text-left p-4 bg-gray-50">
                <img
               src={image.src}
               alt={image.title}

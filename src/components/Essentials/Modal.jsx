@@ -9,13 +9,13 @@ const Modal = ({ isOpen, onClose, title, message }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <div className="bg-white rounded-lg p-6 shadow-lg w-full max-w-md">
+      <div className="bg-white rounded-lg p-6 shadow-lg w-full max-w-md mx-8">
         <h2 className="text-xl font-semibold mb-4">{title}</h2>
         <p className="text-gray-700 mb-6">{message}</p>
         <div className="text-right">
           <button
             onClick={onClose}
-            className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition"
+            className="bg-[#000300] text-white py-2 px-4 rounded hover:bg-[#000000] transition"
           >
             Close
           </button>

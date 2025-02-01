@@ -6,7 +6,8 @@ import Footer from './components/Footer';
 import Admin from './Admin/Admin';
 import Navbar from './components/Navbar';
 import Painting from './pages/Painting';
-import Photographs from './pages/Photographs';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
 
 function App() {
  
@@ -26,8 +27,9 @@ function App() {
               />
               <Route path="/about" element={<About />} />
               <Route path="/painting" element={<Painting />} />
-              <Route path="/photographs" element={<Photographs />} />
               <Route path="/contact" element={<ContactUs />} />
+              <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+              <Route path="/termsofservice" element={<TermsOfService />} />
 
               {/* Admin Route */}
               <Route path="/admin" element={<Admin />} />

@@ -21,22 +21,23 @@ const AboutSection = () => {
         </div>
 
         {/* Heading */}
-        <h1 className="text-xl md:text-5xl font-semibold text-center mb-6 relative z-10">
+        {/* <h1 className="text-xl md:text-5xl font-semibold text-center mb-6 relative z-10">
         SERVING DISCERNING MUSEUMS, COLLECTORS, DESIGNERS & GALLERIES{" "}
         <span className="text-[#000300] font-extrabold">FOR 60+ YEARS.</span>
-        </h1>
+        </h1> */}
         {/* Paragraph */}
-        <p className="text-[#0000000] text-base md:text-lg leading-relaxed text-center mb-8 relative z-10 max-w-3xl mx-auto">
-          Art Services was founded in 1964, in the heart of Los Angeles. The
-          company is widely recognized as Southern California’s premier art
-          presentation specialist and creates custom, archival-level frames,
-          and the highest quality mounts, cradles, and pedestals.
-          <br />
+        <p className="text-[#0000000] text-base md:text-lg lg:text-xl leading-relaxed text-center mb-8 relative z-10 max-w-3xl mx-auto">
+          At Nazee Creative Studios, we're passionate about fostering creativity, innovation,
+          and artistic excellence. As a multifaceted art company, we specialize in Fine Art, Digital Art,
+          Art Education, Art Storage, Art Consulting, and Art Logistics. Our mission is to provide a platform for artists to thrive,
+          while delivering exceptional services that cater to the diverse needs of the art community.
+
+          {/* <br />
           <br />
           We are dedicated to treating your artwork and your trust with the
           utmost care. That is why we use the most sophisticated technology
           available and have established decades-long relationships with the
-          most judicious clientele.
+          most judicious clientele. */}
         </p>
 
         {/* Call to Action */}

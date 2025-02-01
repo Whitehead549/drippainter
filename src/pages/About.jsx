@@ -3,6 +3,7 @@ import AboutImage from "../assets/AboutIImage (1).svg"; // Replace with the corr
 
 const About = () => {
   return (
+    <div className="bg-gray-50 overflow-x-hidden">
     <section className="relative pt-16">
       {/* Image Section */}
       <div className="flex justify-center py-8">
@@ -26,131 +27,139 @@ const About = () => {
         </div>
 
         {/* Heading */}
-        <h1 className="text-xl md:text-5xl font-semibold text-center mb-6 relative z-10">
+        {/* <h1 className="text-xl md:text-5xl font-semibold text-center mb-6 relative z-10">
           SERVING DISCERNING MUSEUMS, COLLECTORS, DESIGNERS & GALLERIES{" "}
           <span className="text-[#000300] font-extrabold">FOR 60+ YEARS.</span>
-        </h1>
+        </h1> */}
 
         {/* Paragraph */}
         <p className="text-[#000000] text-base md:text-lg leading-relaxed text-center mb-8 relative z-10 max-w-3xl mx-auto">
-          Art Services was founded in 1964, in the heart of Los Angeles. The
-          company is widely recognized as Southern California’s premier art
-          presentation specialist and creates custom, archival-level frames,
-          and the highest quality mounts, cradles, and pedestals.
-          <br />
+          At Nazee Creative Studios, we're passionate about fostering creativity, innovation,
+          and artistic excellence. As a multifaceted art company, we specialize in Fine Art, Digital Art,
+          Art Education, Art Storage, Art Consulting, and Art Logistics. Our mission is to provide a platform for artists to thrive,
+          while delivering exceptional services that cater to the diverse needs of the art community.
+
+          {/* <br />
           <br />
           We are dedicated to treating your artwork and your trust with the
           utmost care. That is why we use the most sophisticated technology
           available and have established decades-long relationships with the
-          most judicious clientele.
+          most judicious clientele. */}
         </p>
 
         {/* Our History Section */}
         <div className="mt-12 relative z-10">
           <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
-            Our History
+            Our Story
           </h2>
           <p className="text-[#000000] text-base md:text-lg leading-relaxed text-center mb-8 max-w-3xl mx-auto">
-            Since our inception in 1964, Art Services has been at the forefront 
-            of art preservation and presentation. Over the decades, we have 
-            collaborated with renowned museums, private collectors, and leading 
-            galleries to deliver exceptional craftsmanship and innovative solutions. 
-            Our legacy is built on a foundation of trust, expertise, and an unwavering 
-            commitment to excellence.
+          Founded on the principles of creativity, innovation, and excellence,
+          Nazee Creative Studios was established to bridge the gap between artists, art enthusiasts, and the art market.
+          Our team of experienced artists, educators, and art professionals is dedicated to providing top-notch services that exceed our clients'
+          expectations.
+
           </p>
         </div>
 
-        {/* Our Team Section */}
+        {/* Our mission Section */}
         <div className="mt-12 relative z-10">
-          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
-            Our Team
-          </h2>
-          <p className="text-[#000000] text-base md:text-lg leading-relaxed text-center mb-8 max-w-3xl mx-auto">
-            Our team comprises some of the most skilled artisans, conservators, 
-            and technicians in the industry. Each member brings a wealth of 
-            experience and a passion for art, ensuring that every project is 
-            handled with the highest level of care and professionalism. From 
-            framing to installation, our team works collaboratively to bring 
-            your vision to life.
-          </p>
+        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
+          Our Mission
+        </h2>
+        <div className="lg:text-center md:text-center">
+          <h3 className="text-xl md:text-2xl font-medium mb-3 text-center">
+            At Nazee Creative Studios, our mission is to:
+          </h3>
+          <ul className="list-disc list-outside pl-5 text-[#000000] text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
+            <li className="mb-2">Foster creativity and artistic excellence through education, training, and mentorship</li>
+            <li className="mb-2 md:pl-3">Provide a platform for artists to showcase their work, connect with audiences, and access new markets</li>
+            <li className="mb-2 lg:pl-4 md:pl-1">Deliver exceptional art services, including storage, consulting, and logistics, that cater to the unique needs of artists, collectors, and institutions</li>
+            <li>Promote art appreciation, education, and community engagement through outreach programs, exhibitions, and events</li>
+          </ul>
+        </div>
         </div>
 
-        {/* Why Choose Us Section */}
+        {/* Our Goals Section */}
         <div className="mt-12 relative z-10">
           <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
-            Why Choose Us?
+            Our Goals
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4">Unmatched Expertise</h3>
-              <p className="text-[#000000] text-base leading-relaxed">
-                With over 60 years of experience, we have the knowledge and 
-                skills to handle even the most complex projects.
-              </p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4">State-of-the-Art Technology</h3>
-              <p className="text-[#000000] text-base leading-relaxed">
-                We utilize cutting-edge tools and techniques to ensure the 
-                highest quality results for your artwork.
-              </p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4">Personalized Service</h3>
-              <p className="text-[#000000] text-base leading-relaxed">
-                Every project is tailored to meet your specific needs, ensuring 
-                a seamless and satisfying experience.
-              </p>
-            </div>
+          <div className="lg:text-center md:text-center">
+            <h3 className="text-xl md:text-2xl font-medium mb-3 text-center">
+              Our goals at Nazee Creative Studios are to:
+            </h3>
+            <ul className="list-disc list-outside pl-5 text-[#000000] text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
+              <li className="mb-2">
+                Establish ourselves as a leading art company, renowned for our commitment to artistic excellence, innovation, and customer satisfaction
+              </li>
+              <li className="mb-2 md:pl-1">
+                Build a vibrant community of artists, art enthusiasts, and professionals who share our passion for art and creativity
+              </li>
+              <li className="mb-2 lg:pl-0 md:pl-2">
+                Provide opportunities for artists to grow, learn, and succeed through our education, training, and mentorship programs
+              </li>
+              <li className="lg:pl-1 md:pl-1">
+                Expand our services to meet the evolving needs of the art market, while maintaining our commitment to quality, integrity, and excellence
+              </li>
+            </ul>
           </div>
+       </div>
+
+       {/* Our Services Section */}
+      <div className="mt-12 relative z-10">
+        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
+          Our Services
+        </h2>
+        <div className="lg:text-center md:text-center">
+          <h3 className="text-xl md:text-xl font-medium mb-3 text-center">
+            At Nazee Creative Studios, we offer a wide range of services designed<br/> to meet the diverse needs of artists, collectors, and institutions. These include:
+          </h3>
+          <ul className="list-disc list-outside pl-5 text-[#000000] text-base md:text-lg leading-relaxed max-w-3xl mx-auto lg:break-words lg:w-[50rem]">
+            <li className="mb-2">
+              Fine Art: Original paintings, prints, and sculptures created by our talented artists
+            </li>
+            <li className="mb-2">
+              Digital Art: Digital paintings, illustrations, and designs created using cutting-edge technology
+            </li>
+            <li className="mb-2">
+              Art Education: Workshops, classes, and training programs for artists, educators, and enthusiasts
+            </li>
+            <li className="mb-2">
+              Art Storage: Secure, climate-controlled storage facilities for art collections and valuable items
+            </li>
+            <li className="mb-2">
+              Art Consulting: Expert advice on art investment, collection management, and art market trends
+            </li>
+            <li>
+              Art Logistics: Professional art handling, transportation, and installation services
+            </li>
+          </ul>
         </div>
+      </div>
 
         {/* Partnerships Section */}
         <div className="mt-12 relative z-10">
           <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
-            Our Partnerships
+          Join Our Community
           </h2>
           <p className="text-[#000000] text-base md:text-lg leading-relaxed text-center mb-8 max-w-3xl mx-auto">
-            Over the years, we have built strong relationships with some of the 
-            most prestigious institutions and individuals in the art world. 
-            Our partners include the Los Angeles County Museum of Art (LACMA), 
-            The Getty Museum, and numerous private collectors and galleries. 
-            These collaborations are a testament to our reputation for excellence 
-            and reliability.
+          At Nazee Creative Studios, we're passionate about building a vibrant community of artists, art enthusiasts,
+           and professionals who share our passion for art and creativity. If you're interested in joining our community, learning more about our services,
+            or exploring opportunities for collaboration, please don't hesitate to contact us:<br/>
+            <span className="font-medium"> Email:</span> <span className="text-blue-900"> contact@nazeecreativestudios.com </span> <br/>
+
+              We look forward to connecting with you and exploring the world of art together!
           </p>
         </div>
 
-        {/* Testimonials Section */}
-        <div className="mt-12 relative z-10">
-          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6">
-            What Our Clients Say
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <div className="text-center">
-              <p className="text-[#000000] text-base leading-relaxed italic mb-4">
-                "Spring Co Logistics has been a trusted, reliable partner for Bailiwick since the 
-                first shipment they picked up. They give me peace of mind knowing that my US shipments will get to their destinations safely."
-              </p>
-              <p className="text-[#000000] text-base font-semibold">
-               - Scott Hannah
-              </p>
-            </div>
-            <div className="text-center">
-              <p className="text-[#000000] text-base leading-relaxed italic mb-4">
-                "I was really impressed with Spring Co Logistics' consultative approach to our distribution needs.
-                 They simply have the best execution and customer service of all my supply chain providers."
-              </p>
-              <p className="text-[#000000] text-base font-semibold">
-               - Avic Gonzalez
-              </p>
-            </div>
-          </div>
-        </div>
+        
+        
       </div>
 
       {/* Separator */}
       <div className="w-full h-[2px] bg-gray-200 mt-8"></div>
     </section>
+    </div>
   );
 };
 

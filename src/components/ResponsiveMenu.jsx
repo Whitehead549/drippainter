@@ -18,14 +18,9 @@ const navbarLinks = [
     id: 3,
   },
   {
-    name: "Photographs",
-    link: "/photographs",
-    id: 4,
-  },
-  {
     name: "Contact Us",
     link: "/contact",
-    id: 5,
+    id: 4,
   },
 ];
 
