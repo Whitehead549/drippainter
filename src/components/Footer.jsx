@@ -1,5 +1,6 @@
 import React from "react";
 import { Link} from "react-router-dom";
+import logo from "../assets/Nazee.PNG"; // Adjust the path based on your file location
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,11 +10,15 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 grid grid-cols-1 gap-6 sm:grid-cols-3  md:grid-cols-3  lg:grid-cols-3 ">
         {/* Column 1: Company Information */}
         <div className="text-center sm:text-left">
-          <h2 className="text-sm md:text-base font-bold mb-3 text-[#fff]">
-          Nazee Studios
-          </h2>
-          <p className="text-xs md:text-sm leading-relaxed">
-          Inspiring creativity, beauty, and imagination through art. Elevating spaces, enhancing lives.
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <img
+              src={logo} // Use the imported logo
+              alt="Nazee Studios Logo" // Add alt text for accessibility
+              className="h-7" // Adjust the height as needed
+            />
+          </Link>
+          <p className="text-xs md:text-sm leading-relaxed pt-2">
+            Inspiring creativity, beauty, and imagination through art. Elevating spaces, enhancing lives.
           </p>
         </div>
 

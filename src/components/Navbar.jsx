@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { FaRegWindowClose } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
+import logo from "../assets/Nazee.PNG"; // Adjust the path based on your file location
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,7 +19,11 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="flex-shrink-0">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <h1 className="text-2xl font-bold text-[#ffffff]">Nazee Studios</h1>
+            <img
+              src={logo} // Use the imported logo
+              alt="Nazee Studios Logo" // Add alt text for accessibility
+              className="h-10" // Adjust the height as needed
+            />
           </Link>
         </div>
 
