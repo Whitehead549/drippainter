@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cc051d5d.css",
-    "main.js": "/static/js/main.18ad4149.js",
+    "main.js": "/static/js/main.8249aea6.js",
     "static/media/progress.jpg": "/static/media/progress.56a09164f90d1caaa18b.jpg",
     "static/media/Soul Awakening.jpg": "/static/media/Soul Awakening.f8be510b330dbe37cc57.jpg",
     "static/media/Oil.jpg": "/static/media/Oil.040cf92ccac1dd50efc6.jpg",
@@ -21,10 +21,10 @@
     "static/media/AboutIImage (1).svg": "/static/media/AboutIImage (1).b43515bb9ee8d1c46df4ecdf5910203f.svg",
     "index.html": "/index.html",
     "main.cc051d5d.css.map": "/static/css/main.cc051d5d.css.map",
-    "main.18ad4149.js.map": "/static/js/main.18ad4149.js.map"
+    "main.8249aea6.js.map": "/static/js/main.8249aea6.js.map"
   },
   "entrypoints": [
     "static/css/main.cc051d5d.css",
-    "static/js/main.18ad4149.js"
+    "static/js/main.8249aea6.js"
   ]
 }
