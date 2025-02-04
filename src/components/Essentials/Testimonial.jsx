@@ -10,19 +10,19 @@ const testimonials = [
     name: "Emily Chen",
     title: "Interior Designer",
     rating: 5,
-    text: "I've had the pleasure of working with Nazee Creative Studios on several projects, and I'm always impressed by their professionalism and creativity. Their team is passionate, talented, and dedicated to delivering exceptional results.",
+    text: "I've enjoyed working with Nazee Creative Studios. Their passionate, talented team consistently delivers exceptional results.",
   },
   {
     name: "David Lee",
     title: "Art Collector",
     rating: 5,
-    text: "Nazee Creative Studios brought my vision to life with their stunning artwork. Their attention to detail, innovative approach, and excellent communication made the entire process seamless and enjoyable. I highly recommend them to anyone seeking unique and captivating art solutions.",
+    text: "Stunning artwork, excellent communication, and a seamless process. I highly recommend Nazee Creative Studios.",
   },
   {
     name: "Rachel Patel",
     title: "Architect",
     rating: 5,
-    text: "As an architect, I've collaborated with Nazee Creative Studios on various projects, and their expertise in art consulting and logistics has been invaluable. Their team is knowledgeable, responsive, and committed to finding the perfect art solutions for our clients. I look forward to continuing our partnership.",
+    text: "Nazee Creative Studios provides invaluable art consulting and logistics expertise for our architectural projects.",
   },
 ];
 

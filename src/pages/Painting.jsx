@@ -36,8 +36,8 @@ const Painting = () => {
     },
     {
       src: image3,
-      title: "John Brooks",
-      bio: "John Brooks is a muralist known for his minimalist and geometric designs that bring a sense of order and harmony to urban spaces.",
+      title: "John Darwin",
+      bio: "John Darwin is a muralist known for his minimalist and geometric designs that bring a sense of order and harmony to urban spaces.",
     },
     {
       src: image6,

@@ -75,14 +75,16 @@ const Home = () => {
               NAZEE CREATIVE <br />STUDIOS
               </h1>
 
-              <div className="flex flex-col sm:flex-row space-y-0 sm:space-y-0 sm:space-x-6 justify-center pt-0">
-                 <Link
-                  to="/contact"
-                  className="bg-white border-2 border-white rounded-sm text-[#000000] py-2 px-4 sm:px-6 hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 shadow-md text-sm sm:text-base"
-                >
-                  Contact
-                </Link>
-              </div>
+              <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-6 justify-center lg:pt-4">
+              <Link
+                to="/contact"
+                className="bg-white border-2 border-gray-300 rounded-md text-black py-3 px-4 sm:px-8 hover:bg-gray-100 hover:shadow-lg transition-all duration-300 transform hover:scale-105 shadow-md text-sm sm:text-base font-semibold"
+                style={{ fontFamily: "'Poppins', sans-serif" }}
+              >
+                Contact
+              </Link>
+            </div>
+
             </div>
           </div>
 

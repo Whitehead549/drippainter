@@ -77,7 +77,7 @@ const ContactUs = () => {
       <section className="relative px-6 md:px-12 lg:px-20 py-12 pt-24">
         {/* Heading */}
         <h1 className="text-2xl md:text-4xl font-semibold text-center mb-8">
-          Get in Touch with Nazee Creative Studios!
+          Get in touch with Nazee Creative Studios!
         </h1>
 
         {/* Contact Information */}
