@@ -47,7 +47,7 @@ const Footer = () => {
 
         {/* Column 3: Social Media & Newsletter */}
         <div className="text-center sm:text-left text-[#fff]">
-          <h2 className="text-sm md:text-base font-bold mb-2 text-[#ffffff]">Contact Us</h2>
+          <h2 className="text-sm md:text-base font-bold mb-2 text-[#ffffff]">Contact Information</h2>
           <p className="text-xs md:text-sm pb-1 text-[#ffffff]">
             <strong>Email:</strong> contact@nazeecreativestudios.com
           </p>
