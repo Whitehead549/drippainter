@@ -78,7 +78,7 @@ const Home = () => {
               <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-6 justify-center lg:pt-4">
               <Link
                 to="/contact"
-                className="bg-white border-2 border-gray-300 rounded-full text-black py-3 px-4 sm:px-8 hover:bg-gray-100 hover:shadow-lg transition-all duration-300 transform hover:scale-105 shadow-md text-sm sm:text-base font-semibold"
+                className="bg-white rounded-full text-black py-3 px-4 sm:px-8 hover:bg-gray-100 hover:shadow-lg transition-all duration-300 transform hover:scale-105 shadow-md text-sm sm:text-base font-semibold"
                 style={{ fontFamily: "'Poppins', sans-serif" }}
               >
                 Contact
