@@ -51,8 +51,8 @@ const Painting = () => {
     },
     {
       src: image8,
-      title: "Liam Fuksa",
-      bio: "Liam Fuksa is a skilled muralist who specializes in photorealistic portraits and intricate details.",
+      title: "Liam Tjosaas",
+      bio: "Liam Tjosaas is a skilled muralist who specializes in photorealistic portraits and intricate details.",
     },
   ];
 
