@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
     {/* Footer for Large Devices Only */}
-    <footer className="hidden lg:block bg-[#000300] text-[#fff] pt-5 pb-0.5">
+    <footer className="hidden md:block bg-[#000300] text-[#fff] pt-5 pb-0.5">
       <div className="container mx-auto px-4 md:px-6 grid grid-cols-1 gap-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
         {/* Column 1: Company Information */}
         <div className="flex flex-col items-center sm:items-start">
@@ -72,7 +72,7 @@ const Footer = () => {
     </footer>
   
     {/* Footer for Small and Medium Devices Only */}
-    <footer className="block lg:hidden bg-[#000300] text-[#fff] pt-5 pb-0.5">
+    <footer className="block md:hidden bg-[#000300] text-[#fff] pt-5 pb-0.5">
       <div className="container mx-auto px-4 md:px-6 grid grid-cols-1 gap-6 text-center">
         {/* Column 1: Company Information */}
         <div className="flex flex-col items-center">
