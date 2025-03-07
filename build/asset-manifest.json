@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce6adde9.css",
-    "main.js": "/static/js/main.7189dd3a.js",
+    "main.css": "/static/css/main.fda391e4.css",
+    "main.js": "/static/js/main.bc90637b.js",
     "static/media/progress.jpg": "/static/media/progress.56a09164f90d1caaa18b.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/Soul Awakening.jpg": "/static/media/Soul Awakening.f8be510b330dbe37cc57.jpg",
     "static/media/Oil.jpg": "/static/media/Oil.040cf92ccac1dd50efc6.jpg",
     "static/media/soft.jpg": "/static/media/soft.0da3a742c64967c66a85.jpg",
@@ -10,21 +11,28 @@
     "static/media/Windswept_Tree.jpg": "/static/media/Windswept_Tree.7e1ab6fe61a328d80b0e.jpg",
     "static/media/kioshi.jpg": "/static/media/kioshi.8c55b0cb9971acc11fb7.jpg",
     "static/media/Camino College Art.jpg": "/static/media/Camino College Art.e6b4ff8cce7e21767e3d.jpg",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/Nazee.PNG": "/static/media/Nazee.2ea1ff9647ee786cd8be.PNG",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/2150170352.jpg": "/static/media/2150170352.f5e020a6a317352cf016.jpg",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/fine_art.jpg": "/static/media/fine_art.0310c9fc67cbc6d0d2d6.jpg",
     "static/media/room.jpg": "/static/media/room.c8f7e69ca588aca2d00b.jpg",
     "static/media/Digital_art.jpg": "/static/media/Digital_art.6ce6d4b27aa43b76df8e.jpg",
     "static/media/logissss.jpg": "/static/media/logissss.891f649eb17079e71c24.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/Education.jpg": "/static/media/Education.f16583cb4567aeeef3bd.jpg",
     "static/media/consultant.jpg": "/static/media/consultant.537ffdd1b4ed5193cf5d.jpg",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/AboutIImage (1).svg": "/static/media/AboutIImage (1).b43515bb9ee8d1c46df4ecdf5910203f.svg",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
-    "main.ce6adde9.css.map": "/static/css/main.ce6adde9.css.map",
-    "main.7189dd3a.js.map": "/static/js/main.7189dd3a.js.map"
+    "main.fda391e4.css.map": "/static/css/main.fda391e4.css.map",
+    "main.bc90637b.js.map": "/static/js/main.bc90637b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce6adde9.css",
-    "static/js/main.7189dd3a.js"
+    "static/css/main.fda391e4.css",
+    "static/js/main.bc90637b.js"
   ]
 }
